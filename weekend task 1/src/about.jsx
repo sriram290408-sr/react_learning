@@ -11,12 +11,12 @@ function About() {
         </div>
 
         <div className="right">
-          <i className="icon">
+          <p className="icon">
             <img src="/src/assets/social_light1.png" alt="social" />
-          </i>
-          <i className="icon">
+          </p>
+          <p className="icon">
             <img src="/src/assets/social_light2.png" alt="social" />
-          </i>
+          </p>
         </div>
       </header>
       <div className="user-left">
@@ -30,9 +30,9 @@ function About() {
             expedita natus consequuntur voluptatum nulla quis fuga.
           </p>
           <h3 id="head">Sign up</h3>
-          <input type="text" placeholder="Name" className="input"></input>{" "}
+          <input type="text" placeholder="Name" className="input" />
           <br />
-          <input type="text" placeholder="Email" className="input"></input>{" "}
+          <input type="text" placeholder="Email" className="input" />
           <br />
           <button className="but">Sign up</button>
         </div>
@@ -94,12 +94,12 @@ function About() {
         </div>
 
         <div className="ft-right">
-          <i className="ft-icon">
+          <p className="ft-icon">
             <img src="/src/assets/social1.png" />
-          </i>
-          <i className="ft-icon">
+          </p>
+          <p className="ft-icon">
             <img src="/src/assets/social2.png" />
-          </i>
+          </p>
         </div>
       </footer>
     </div>
