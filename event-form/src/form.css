@@ -1,0 +1,49 @@
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+.myform{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    gap:0px;
+    padding: 40px 0px 40px 40px;
+    font-weight: 600;
+}
+
+.inform{
+    background-color: white;
+    width: 270px;
+    align-items: center;
+    color: black;
+}
+
+.drop{
+    width: 270px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: black;
+}
+.foody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:0px;
+}
+
+button{
+    width: 200px;
+    align-items: center;
+}
